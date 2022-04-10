@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-color: #020631;
+  --text-color: white;
+  --text-yellow: #e5fe52;
+}
+
+
+html, body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+
+
+
+.section {
+  @apply my-14 py-14;
+  border-top: rgba(255,255,255,0.5) 1px solid;
+}
+
+
+
+.buy-a-metapump {
+  background-color: var(--text-yellow);
+  min-height: 50px;
+  @apply p-8;
+  border-radius: 8px;
+}
+
+
+
+
+.section .section__header {
+  @apply pb-11;
+}
