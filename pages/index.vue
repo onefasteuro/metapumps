@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto">
     <div>
-      <img src="~/assets/banner.jpg" alt="Welcome to the Metagym" />
+      <img src="/banner.jpg" alt="Welcome to the Metagym" />
     </div>
     <section class="section--welcome section">
       <div class="container mx-auto">
@@ -35,7 +35,7 @@
             <CardAvatar title="Jay Cutler"
                         caption="4x Mr. Olympia">
               <template #image>
-                <img src="~/assets/jay-avatar.jpg" />
+                <img src="/jay-avatar.jpg" />
               </template>
             </CardAvatar>
           </div>
@@ -44,7 +44,7 @@
                         title="Whitney Reid"
                         caption="4x Mr. Olympia">
               <template #image>
-                <img src="~/assets/whitney-avatar.jpg" />
+                <img src="/whitney-avatar.jpg" />
               </template>
             </CardAvatar>
           </div>

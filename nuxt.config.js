@@ -67,8 +67,4 @@ export default {
     viewer: true,
   },
 
-  router: {
-    base: '/metapumps/'
-  }
-
 }
