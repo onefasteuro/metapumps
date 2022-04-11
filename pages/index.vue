@@ -29,7 +29,7 @@
     <section class="section section--buy">
       <div class="buy-a-metapump">
         <div>
-          <SectionHeader anchor="buy-metapump" class="text-center">Buy a Metapump</SectionHeader>
+          <SectionHeader anchor="buy-metapump" class="text-center">Buy<br />a<br />Metapump</SectionHeader>
           <div class="mt-8 text-center">
             <button>Buy Now</button>
           </div>

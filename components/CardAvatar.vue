@@ -6,7 +6,7 @@ h2 {
 }
 p {
   color: var(--text-color);
-  @apply m-0 text-base;
+  @apply m-0 text-base font-medium;
   font-style: italic;
 }
 .card-avatar__body {

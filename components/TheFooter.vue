@@ -4,18 +4,13 @@ footer {
   @apply py-11 mt-14;
 }
 
-.mp-social li img {
-  width: 30px;
-  height: auto;
-}
-
 </style>
 
 <template>
   <footer class="w-full the-footer">
-    <div class="container mx-auto">
-      <div class="mp-logo">
-
+    <div class="container mx-auto px-8">
+      <div class="mp-logo mx-auto mb-8">
+        <img src="/footer-logo.png" alt="Metapumps Logo" class="mx-auto" />
       </div>
       <div class="mp-social">
         <ul class="flex items-center justify-center">

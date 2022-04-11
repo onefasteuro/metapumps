@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,400;1,800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 :root {
   --background-color: #020631;
@@ -10,6 +13,7 @@
 
 
 html, body {
+  font-family: 'Open Sans', sans-serif;
   background-color: var(--background-color);
   color: var(--text-color);
 }
@@ -50,4 +54,9 @@ html, body {
 .nft-avatar {
   border-radius: 4px;
   overflow: hidden;
+}
+
+.mp-social li img {
+  width: 30px;
+  height: auto;
 }
