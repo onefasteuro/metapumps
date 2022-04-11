@@ -4,10 +4,13 @@
   font-style: italic;
   @apply font-extrabold m-0 text-4xl uppercase;
 }
+.section__header.buy-metapump h2 {
+  color: black;
+}
 </style>
 
 <template functional>
-  <div class="section__header">
+  <div class="section__header" :class="[props.anchor, data.class || '', data.staticClass || '']">
     <a :id="anchor" v-if="props.anchor" />
     <h2>
       <slot />

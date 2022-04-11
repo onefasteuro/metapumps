@@ -18,7 +18,7 @@ html, body {
 
 
 .section {
-  @apply my-14 py-14;
+  @apply mt-14 pt-14;
   border-top: rgba(255,255,255,0.5) 1px solid;
 }
 
@@ -27,13 +27,27 @@ html, body {
 .buy-a-metapump {
   background-color: var(--text-yellow);
   min-height: 50px;
-  @apply p-8;
+  @apply p-12 grid grid-cols-2 gap-11;
   border-radius: 8px;
+}
+.buy-a-metapump button {
+  background-color: #000321;
+  padding: 0.5em 1.5em;
+  border-radius: 300px;
+  color: var(--text-yellow);
+  @apply font-extrabold;
+  font-style: italic;
+  @apply text-xl md:text-2xl;
+}
+
+.section.section--welcome p {
+  @apply text-base md:text-xl m-0;
+  line-height: 1.6125;
 }
 
 
 
-
-.section .section__header {
-  @apply pb-11;
+.nft-avatar {
+  border-radius: 4px;
+  overflow: hidden;
 }

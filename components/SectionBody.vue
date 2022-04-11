@@ -1,7 +1,7 @@
 <style lang="postcss" scoped>
 .section__body {
   @apply mt-11;
-  @apply pl-11;
+  @apply md:pl-11;
 }
 </style>
 
